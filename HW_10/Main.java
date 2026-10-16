@@ -6,6 +6,7 @@ public class Main {
         list[1]=new Motorbike("Honda",160,600);
         list[2]=new Aircraft("Boeing",900,12000);
         list[3]=new Ship("Yamaha",80,5000);
+        System.out.println("Question:How does each vehicle move?");
         for(int i=0;i<list.length;i++) {
             list[i].info();
             list[i].move();
